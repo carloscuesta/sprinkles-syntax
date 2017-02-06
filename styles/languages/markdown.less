@@ -1,0 +1,42 @@
+.syntax--gfm {
+    &.syntax--heading {
+        color: @green;
+
+        &.syntax--marker {
+            color: @red;
+        }
+    }
+
+    &.syntax--markup {
+        &.syntax--italic {
+            color: @pink;
+        }
+
+        &.syntax--raw {
+            color: @green;
+        }
+
+        &.syntax--bold {
+            color: @blue;
+        }
+    }
+
+    .syntax--quote {
+        &.syntax--support {
+            border-left: 3px solid @dark-gray;
+            padding-left: 10px;
+        }
+    }
+
+    .syntax--link {
+        color: @red;
+
+        .syntax--punctuation {
+            color: @cyan;
+        }
+
+        .syntax--entity {
+            color: @orange;
+        }
+    }
+}
