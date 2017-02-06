@@ -121,6 +121,10 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 .syntax--variable {
     color: @very-light-gray;
 
+    &.syntax--scss, &.syntax--less {
+        color: @pink;
+    }
+
     &.syntax--interpolation {
         color: darken(@red, 10%);
     }
