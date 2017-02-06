@@ -1,11 +1,14 @@
 {
   "name": "material-vivid-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.0.0",
+  "author": "Carlos Cuesta",
+  "description": "A material design dark syntax, with a good contrast and vibrant pops of colors.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "material design",
+    "dark"
   ],
   "repository": "https://github.com/carloscuesta/material-syntax",
   "license": "MIT",
