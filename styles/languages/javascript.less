@@ -1,0 +1,60 @@
+.syntax--js {
+    .syntax--variable {
+        &.syntax--parameter {
+            font-style: italic;
+            color: @red;
+        }
+    }
+
+    .syntax--storage {
+        color: @blue;
+    }
+
+    &.syntax--constructor {
+        color: @green!important;
+    }
+
+    &.syntax--embedded {
+        color: @orange;
+
+        &.syntax--section{
+            color: @red;
+        }
+    }
+
+    .syntax--bracket {
+        &.syntax--round, &.syntax--square {
+            color: @very-light-gray!important;
+        }
+    }
+
+    .syntax--constant {
+        color: @red;
+    }
+
+    .syntax--function {
+        color: @orange;
+
+        &.syntax--name {
+            color: @blue;
+        }
+    }
+
+    .syntax--punctuation{
+        &.syntax--terminator, &.syntax--curly {
+            color: @very-light-gray;
+        }
+    }
+
+    .syntax--variable {
+        &.syntax--object {
+            color: @white;
+        }
+    }
+
+    .syntax--keyword {
+        &.syntax--control {
+            color: @pink;
+        }
+    }
+}
