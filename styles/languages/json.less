@@ -1,6 +1,6 @@
 .syntax--json {
     .syntax--meta {
-        &.syntax--array.syntax--structure .syntax--string.syntax--quoted.syntax--double {
+        &.syntax--structure .syntax--string.syntax--quoted.syntax--double {
             color: @red;
 
             > * {
@@ -21,6 +21,7 @@
         .syntax--numeric, .syntax--constant {
             color: @orange;
         }
+
         .syntax--punctuation.syntax--separator.syntax--key-value + .syntax--string.syntax--quoted {
             color: @green;
 
@@ -41,6 +42,10 @@
             .syntax--punctuation.syntax--string {
                 color: currentColor;
             }
+        }
+
+        &.syntax--meta .syntax--structure .syntax--array .syntax--string {
+            color: @green;
         }
     }
 }
