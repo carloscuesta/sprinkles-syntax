@@ -4,6 +4,10 @@
             font-style: italic;
             color: @red;
         }
+
+        &.syntax--object {
+            color: @red;
+        }
     }
 
     .syntax--storage {
@@ -11,7 +15,7 @@
     }
 
     &.syntax--constructor {
-        color: @green!important;
+        color: @pink!important;
     }
 
     &.syntax--embedded {
@@ -40,15 +44,13 @@
         }
     }
 
-    .syntax--punctuation{
-        &.syntax--terminator, &.syntax--curly {
-            color: @very-light-gray;
-        }
+    .syntax--curly {
+        color: @very-light-gray;
     }
 
-    .syntax--variable {
-        &.syntax--object {
-            color: @white;
+    .syntax--punctuation{
+        &.syntax--terminator {
+            color: @very-light-gray;
         }
     }
 
