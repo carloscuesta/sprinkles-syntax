@@ -4,6 +4,34 @@
     }
 
     .syntax--punctuation {
-        color: @cyan!important;
+        color: @cyan;
+
+        &.syntax--tag {
+            color: @very-light-gray;
+        }
+    }
+
+    .syntax--variable {
+        &.syntax--other {
+            color: @white;
+        }
+    }
+
+    .syntax--storage {
+        &.syntax--arrow {
+            color: @red;
+        }
+    }
+
+    .syntax--parameters {
+        font-style: italic;
+
+        .syntax--other {
+            color: @red;
+        }
+
+        .syntax--delimiter {
+            color: @very-light-gray;
+        }
     }
 }
