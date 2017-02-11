@@ -6,16 +6,22 @@
         }
 
         &.syntax--object {
+            color: @white;
+        }
+
+        &.syntax--property {
+            color: @blue;
+        }
+    }
+
+    .syntax--entity {
+        &.syntax--type {
             color: @red;
         }
     }
 
     .syntax--storage {
         color: @blue;
-    }
-
-    &.syntax--constructor {
-        color: @pink!important;
     }
 
     &.syntax--embedded {
@@ -26,32 +32,26 @@
         }
     }
 
-    .syntax--bracket {
-        &.syntax--round, &.syntax--square {
-            color: @very-light-gray!important;
+    .syntax--operator {
+        &.syntax--ternary, &.syntax--logical {
+            color: @pink;
         }
     }
 
     .syntax--constant {
-        color: @red;
+        color: @white;
     }
 
     .syntax--function {
-        color: @orange;
+        color: @blue;
 
         &.syntax--name {
-            color: @blue;
+            color: @orange;
         }
     }
 
-    .syntax--curly {
+    .syntax--punctuation, .syntax--curly {
         color: @very-light-gray;
-    }
-
-    .syntax--punctuation{
-        &.syntax--terminator {
-            color: @very-light-gray;
-        }
     }
 
     .syntax--keyword {
