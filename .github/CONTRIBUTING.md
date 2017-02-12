@@ -1,4 +1,4 @@
-# Contributing to gitmoji
+# Contributing to material-dark-syntax
 
 Hello!
 
