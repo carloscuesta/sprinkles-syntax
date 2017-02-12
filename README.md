@@ -35,6 +35,6 @@ $ apm install material-dark-syntax
 
 This color scheme is also available as a shell theme in [materialshell](https://github.com/carloscuesta/materialshell).
 
-### Languages supported
+### [Languages supported](https://github.com/carloscuesta/material-syntax/blob/master/screenshots.md)
 
 To see how **material-dark-syntax** looks across different languages, take a look at [the screenshots](https://github.com/carloscuesta/material-syntax/blob/master/screenshots.md)
