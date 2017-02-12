@@ -18,7 +18,7 @@
 
 1. Open *Settings* > *Install*
 2. Set the filter to *Themes*
-3. Search for `atom-material-dark` and install
+3. Search for `material-dark-syntax` and install
 
 ### [Atom Package Manager](https://github.com/atom/apm)
 
@@ -30,3 +30,11 @@ $ apm install material-dark-syntax
 
 1. Open *Settings* > *Install*
 2. Select `Material Dark` from the *Syntax Theme* drop-down
+
+## About
+
+This color scheme is also available as a shell theme in [materialshell](https://github.com/carloscuesta/materialshell).
+
+### Languages supported
+
+To see how **material-dark-syntax** looks across different languages, take a look at [the screenshots](https://github.com/carloscuesta/material-syntax/blob/master/screenshots.md)
