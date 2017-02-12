@@ -1,5 +1,5 @@
 {
-  "name": "material-vivid-syntax",
+  "name": "material-dark-syntax",
   "theme": "syntax",
   "version": "0.0.0",
   "author": "Carlos Cuesta",
@@ -8,7 +8,9 @@
     "syntax",
     "theme",
     "material design",
-    "dark"
+    "dark",
+    "google",
+    "materialshell"
   ],
   "repository": "https://github.com/carloscuesta/material-syntax",
   "license": "MIT",
