@@ -1,4 +1,4 @@
-language: generic
+language: objective-c
 env:
   global:
     - ATOM_LINT_WITH_BUNDLED_NODE="true"
