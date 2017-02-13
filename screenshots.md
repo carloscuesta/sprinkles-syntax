@@ -4,31 +4,31 @@
 
 ### HTML
 
-![html](https://cloud.githubusercontent.com/assets/7629661/22866405/7ea4b23e-f176-11e6-9c57-c9d516f59c2e.png)
+![html](https://cloud.githubusercontent.com/assets/7629661/22897603/98f7b452-f224-11e6-92e9-b70480fb2574.png)
 
 ### CSS - SCSS - LESS
 
-![css-scss](https://cloud.githubusercontent.com/assets/7629661/22866401/7e99f95c-f176-11e6-8f34-fe1f6b646743.png)
+![css](https://cloud.githubusercontent.com/assets/7629661/22897605/98fa9be0-f224-11e6-8f61-833f60907c6e.png)
 
 ### JavaScript
 
-![js](https://cloud.githubusercontent.com/assets/7629661/22866601/8c43db56-f179-11e6-99f1-f3b48bae6c3b.png)
+![js](https://cloud.githubusercontent.com/assets/7629661/22897601/98ebe424-f224-11e6-8b20-5c2a7601ca7b.png)
 
 ### Babel (ES2016, React, JSX)
 
-![react](https://cloud.githubusercontent.com/assets/7629661/22866950/82a844c4-f17e-11e6-938c-e8ae45c455a2.png)
+![react-babel](https://cloud.githubusercontent.com/assets/7629661/22897602/98f59744-f224-11e6-818e-243131743690.png)
 
 ### Markdown
 
-![markdown](https://cloud.githubusercontent.com/assets/7629661/22866406/7ea9eee8-f176-11e6-8b0a-e64217583c2f.png)
+![markdown](https://cloud.githubusercontent.com/assets/7629661/22897610/99141534-f224-11e6-83bf-bd49ec8e8d8f.png)
 
 ### JSON
 
-![json](https://cloud.githubusercontent.com/assets/7629661/22866403/7e9d2e38-f176-11e6-98a7-c1a4610adfe5.png)
+![json](https://cloud.githubusercontent.com/assets/7629661/22897608/990d0370-f224-11e6-9a26-e8ef6d230910.png)
 
 ### XML
 
-![xml](https://cloud.githubusercontent.com/assets/7629661/22866408/7eb0fe40-f176-11e6-962b-7235d34c611a.png)
+![xml](https://cloud.githubusercontent.com/assets/7629661/22897613/99238a14-f224-11e6-90a8-d816170d0edd.png)
 
 ### YAML
 
@@ -36,17 +36,28 @@
 
 ### SQL
 
-![sql](https://cloud.githubusercontent.com/assets/7629661/22866522/207888b4-f178-11e6-903b-c839ccfe9197.png)
+![sql](https://cloud.githubusercontent.com/assets/7629661/22897612/9916de54-f224-11e6-9b1d-324cb8f5de5f.png)
 
 ### Pug
 
-![pug](https://cloud.githubusercontent.com/assets/7629661/22866402/7e9a7d64-f176-11e6-8057-9c7a5c854352.png)
+![pug](https://cloud.githubusercontent.com/assets/7629661/22897600/98d4eac6-f224-11e6-8dbf-e662af8eeee3.png)
 
 ### PHP
 
-![php](https://cloud.githubusercontent.com/assets/7629661/22867036/f5b78460-f17f-11e6-819e-e3cdb9246868.png)
+![php](https://cloud.githubusercontent.com/assets/7629661/22897609/991413a4-f224-11e6-887f-ff82910e37e4.png)
 
 ### Ruby
 
-![ruby](https://cloud.githubusercontent.com/assets/7629661/22867013/758eadc2-f17f-11e6-9331-f9e69597612f.png)
+![ruby](https://cloud.githubusercontent.com/assets/7629661/22897607/99083eee-f224-11e6-8d4e-258f3dbf3977.png)
 
+### Python
+
+![python](https://cloud.githubusercontent.com/assets/7629661/22897606/98fbf68e-f224-11e6-924d-49843db9e17c.png)
+
+### Shellscript
+
+![shellscript](https://cloud.githubusercontent.com/assets/7629661/22897611/99148596-f224-11e6-93c1-0fbd2a5d037f.png)
+
+### Coffescript
+
+![coffescript](https://cloud.githubusercontent.com/assets/7629661/22897604/98f86a5a-f224-11e6-8d16-d34b703397ee.png)

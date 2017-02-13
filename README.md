@@ -4,6 +4,8 @@
 [![Downloads](https://img.shields.io/apm/dm/material-dark-syntax.svg?style=flat-square)](https://atom.io/themes/material-dark-syntax)
 [![License](https://img.shields.io/apm/l/vim-mode.svg?style=flat-square)](https://atom.io/themes/material-dark-syntax)
 
+<img src="https://cloud.githubusercontent.com/assets/7629661/22897530/50741c02-f224-11e6-89b8-14c35fc71c8b.gif" alt="atom-material-dark-syntax" width="1075">
+
 > A dark material design syntax theme with a good contrast and vibrant pops of colors.
 
 ## Colors
