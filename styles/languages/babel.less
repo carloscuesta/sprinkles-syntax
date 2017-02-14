@@ -16,13 +16,19 @@
             color: @white;
         }
 
-        // &.syntax--object {
-        //     color: @blue;
-        // }
+        &.syntax--object {
+            color: @blue;
+        }
     }
 
     .syntax--storage {
         &.syntax--arrow {
+            color: @red;
+        }
+    }
+
+    .syntax--function {
+        .syntax--type {
             color: @red;
         }
     }
