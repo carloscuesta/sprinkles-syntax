@@ -138,9 +138,16 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     }
 }
 
-.syntax--invalid.syntax--illegal {
-    background-color: @red;
-    color: @white;
+.syntax--invalid {
+    &.syntax--illegal {
+        background-color: @red;
+        color: @white;
+    }
+
+    &.syntax--deprecated {
+        background-color: @orange;
+        color: @white;
+    }
 }
 
 .syntax--string {
