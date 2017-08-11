@@ -24,7 +24,19 @@
         color: @blue;
     }
 
-    &.syntax--embedded {
+    .syntax--object {
+        &.syntax--key .syntax--string {
+            color: @cyan;
+        }
+    }
+
+    .syntax--operator {
+        &.syntax--assignment {
+            color: @very-light-gray;
+        }
+    }
+
+    .syntax--embedded {
         color: @orange;
 
         &.syntax--section{
