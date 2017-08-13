@@ -1,84 +1,88 @@
 .syntax--js {
-    .syntax--variable {
-        &.syntax--parameter {
-            font-style: italic;
-            color: @red;
-        }
-
-        &.syntax--object {
-            color: @white;
-        }
-
-        &.syntax--property {
-            color: @blue;
-        }
+  .syntax--variable {
+    &.syntax--parameter {
+      font-style: italic;
+      color: @red;
     }
 
-    .syntax--entity {
-        &.syntax--type {
-            color: @red;
-        }
+    &.syntax--object {
+      color: @white;
     }
 
-    .syntax--storage {
-        color: @blue;
+    &.syntax--property {
+      color: @blue;
     }
 
-    &.syntax--embedded {
-        color: @orange;
+    &.syntax--this {
+      font-style: italic;
+    }
+  }
 
-        &.syntax--section {
-            color: @red;
-        }
+  .syntax--entity {
+    &.syntax--type {
+      color: @red;
+    }
+  }
+
+  .syntax--storage {
+    color: @blue;
+  }
+
+  &.syntax--embedded {
+    color: @orange;
+
+    &.syntax--section {
+      color: @red;
+    }
+  }
+
+  .syntax--operator {
+    &.syntax--comparison,
+    &.syntax--logical,
+    &.syntax--relational,
+    &.syntax--ternary {
+      color: @pink;
+    }
+  }
+
+  .syntax--constant {
+    color: @white;
+
+    &.syntax--boolean,
+    &.syntax--null,
+    &.syntax--undefined {
+      color: @pink;
     }
 
-    .syntax--operator {
-        &.syntax--comparison,
-        &.syntax--logical,
-        &.syntax--relational,
-        &.syntax--ternary {
-            color: @pink;
-        }
+    &.syntax--numeric {
+      color: @red;
+    }
+  }
+
+  .syntax--function {
+    color: @blue;
+
+    &.syntax--name {
+      color: @orange;
     }
 
-    .syntax--constant {
-        color: @white;
-
-        &.syntax--boolean,
-        &.syntax--null,
-        &.syntax--undefined {
-            color: @pink;
-        }
-
-        &.syntax--numeric {
-            color: @red;
-        }
+    &.syntax--method {
+      color: @blue;
     }
+  }
 
-    .syntax--function {
-        color: @blue;
+  .syntax--curly,
+  .syntax--punctuation {
+    color: @very-light-gray;
+  }
 
-        &.syntax--name {
-            color: @orange;
-        }
-
-        &.syntax--method {
-            color: @blue;
-        }
+  .syntax--keyword {
+    &.syntax--control {
+      color: @pink;
     }
+  }
 
-    .syntax--curly,
-    .syntax--punctuation {
-        color: @very-light-gray;
-    }
-
-    .syntax--keyword {
-        &.syntax--control {
-            color: @pink;
-        }
-    }
-
-    .syntax--comment {
-        font-style: italic;
-    }
+  .syntax--comment {
+    font-style: italic;
+  }
 }
