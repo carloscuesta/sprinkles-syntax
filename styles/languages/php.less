@@ -1,25 +1,25 @@
 .syntax--php {
-    .syntax--storage {
-        &.syntax--function {
-            color: @orange;
-        }
+  .syntax--storage {
+    &.syntax--function {
+      color: @orange;
     }
+  }
 
-    .syntax--modifier {
+  .syntax--modifier {
+    color: @red;
+  }
+
+  .syntax--variable {
+    color: @white;
+  }
+
+  .syntax--function {
+    &.syntax--arguments {
+      font-style: italic;
+
+      .syntax--variable {
         color: @red;
+      }
     }
-
-    .syntax--variable {
-        color: @white;
-    }
-
-    .syntax--function {
-        &.syntax--arguments {
-            font-style: italic;
-
-            .syntax--variable {
-                color: @red;
-            }
-        }
-    }
+  }
 }

@@ -24,28 +24,19 @@
         color: @blue;
     }
 
-    .syntax--object {
-        &.syntax--key .syntax--string {
-            color: @cyan;
-        }
-    }
-
-    .syntax--operator {
-        &.syntax--assignment {
-            color: @very-light-gray;
-        }
-    }
-
-    .syntax--embedded {
+    &.syntax--embedded {
         color: @orange;
 
-        &.syntax--section{
+        &.syntax--section {
             color: @red;
         }
     }
 
     .syntax--operator {
-        &.syntax--ternary, &.syntax--logical, &.syntax--comparison, &.syntax--relational {
+        &.syntax--comparison,
+        &.syntax--logical,
+        &.syntax--relational,
+        &.syntax--ternary {
             color: @pink;
         }
     }
@@ -53,7 +44,9 @@
     .syntax--constant {
         color: @white;
 
-        &.syntax--null, &.syntax--boolean, &.syntax--undefined {
+        &.syntax--boolean,
+        &.syntax--null,
+        &.syntax--undefined {
             color: @pink;
         }
 
@@ -74,7 +67,8 @@
         }
     }
 
-    .syntax--punctuation, .syntax--curly {
+    .syntax--curly,
+    .syntax--punctuation {
         color: @very-light-gray;
     }
 

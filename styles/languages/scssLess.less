@@ -1,67 +1,69 @@
 .syntax--css {
-    .syntax--support {
-        &.syntax--constant {
-            color: @cyan;
-        }
-
-        &.syntax--property-name {
-            color: @orange;
-        }
+  .syntax--support {
+    &.syntax--constant {
+      color: @cyan;
     }
 
-    .syntax--keyword {
-        &.syntax--unit {
-            color: @cyan;
-        }
+    &.syntax--property-name {
+      color: @orange;
+    }
+  }
 
-        &.syntax--control {
-            color: @pink;
-        }
+  .syntax--keyword {
+    &.syntax--unit {
+      color: @cyan;
     }
 
-    .syntax--numeric{
-        color: @red;
+    &.syntax--control {
+      color: @pink;
+    }
+  }
+
+  .syntax--numeric {
+    color: @red;
+  }
+
+  .syntax--constant {
+    &.syntax--color {
+      color: @cyan;
+
+      .syntax--punctuation {
+        color: currentColor;
+      }
+    }
+  }
+
+  .syntax--punctuation {
+    &.syntax--keyword,
+    &.syntax--separator {
+      color: @very-light-gray;
+    }
+  }
+
+  .syntax--important {
+    color: @pink
+  }
+
+  .syntax--comment {
+    font-style: italic;
+  }
+
+  .syntax--entity {
+    &.syntax--tag {
+      color: @red;
     }
 
-    .syntax--constant {
-        &.syntax--color {
-            color: @cyan;
-
-            .syntax--punctuation {
-                color: currentColor;
-            }
-        }
-    }
-    .syntax--punctuation {
-        &.syntax--separator, &.syntax--keyword {
-            color: @very-light-gray;
-        }
-
+    &.syntax--attribute-name {
+      color: @blue;
     }
 
-    .syntax--important {
-        color: @pink
+    &.syntax--attribute {
+      color: @red
     }
 
-    .syntax--comment {
-        font-style: italic;
+    &.syntax--id,
+    &.syntax--pseudo-class {
+      color: @teal;
     }
-
-    .syntax--entity {
-        &.syntax--tag {
-            color: @red;
-        }
-
-        &.syntax--attribute-name {
-            color: @blue;
-        }
-
-        &.syntax--attribute {
-            color: @red
-        }
-
-        &.syntax--id, &.syntax--pseudo-class {
-            color: @teal;
-        }
-    }
+  }
 }

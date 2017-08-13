@@ -1,51 +1,54 @@
 .syntax--json {
-    .syntax--meta {
-        &.syntax--structure .syntax--string.syntax--quoted.syntax--double {
-            color: @red;
+  .syntax--meta {
+    &.syntax--structure .syntax--string.syntax--quoted.syntax--double {
+      color: @red;
 
-            > * {
-                color: currentColor;
+      > * {
+        color: currentColor;
 
-                &.syntax--punctuation {
-                    &.syntax--begin, &.syntax--end {
-                        color: @cyan;
-                    }
-                }
-            }
+        &.syntax--punctuation {
+          &.syntax--begin,
+          &.syntax--end {
+            color: @cyan;
+          }
         }
-
-        .syntax--invalid.syntax--illegal {
-            color: @white;
-        }
-
-        .syntax--numeric, .syntax--constant {
-            color: @orange;
-        }
-
-        .syntax--punctuation.syntax--separator.syntax--key-value + .syntax--string.syntax--quoted {
-            color: @green;
-
-            * {
-                color: currentColor;
-
-                &.syntax--punctuation {
-                    &.syntax--begin, &.syntax--end {
-                        color: @cyan;
-                    }
-                }
-            }
-        }
-
-        &.syntax--structure.syntax--dictionary .syntax--string.syntax--quoted {
-            color: @red;
-
-            .syntax--punctuation.syntax--string {
-                color: currentColor;
-            }
-        }
-
-        &.syntax--meta .syntax--structure .syntax--array .syntax--string {
-            color: @green;
-        }
+      }
     }
+
+    .syntax--invalid.syntax--illegal {
+      color: @white;
+    }
+
+    .syntax--constant,
+    .syntax--numeric {
+      color: @orange;
+    }
+
+    .syntax--punctuation.syntax--separator.syntax--key-value + .syntax--string.syntax--quoted {
+      color: @green;
+
+      * {
+        color: currentColor;
+
+        &.syntax--punctuation {
+          &.syntax--begin,
+          &.syntax--end {
+            color: @cyan;
+          }
+        }
+      }
+    }
+
+    &.syntax--structure.syntax--dictionary .syntax--string.syntax--quoted {
+      color: @red;
+
+      .syntax--punctuation.syntax--string {
+        color: currentColor;
+      }
+    }
+
+    &.syntax--meta .syntax--structure .syntax--array .syntax--string {
+      color: @green;
+    }
+  }
 }

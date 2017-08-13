@@ -1,50 +1,50 @@
 .syntax--jsx {
-    .syntax--component {
-        color: @red;
+  .syntax--component {
+    color: @red;
+  }
+
+  .syntax--punctuation {
+    color: @cyan;
+
+    &.syntax--key-value {
+      color: @very-light-gray;
     }
 
-    .syntax--punctuation {
-        color: @cyan;
+    &.syntax--tag {
+      color: @very-light-gray;
+    }
+  }
 
-        &.syntax--key-value {
-            color: @very-light-gray;
-        }
-
-        &.syntax--tag {
-            color: @very-light-gray;
-        }
+  .syntax--variable {
+    &.syntax--other {
+      color: @white;
     }
 
-    .syntax--variable {
-        &.syntax--other {
-            color: @white;
-        }
+    &.syntax--object {
+      color: @blue;
+    }
+  }
 
-        &.syntax--object {
-            color: @blue;
-        }
+  .syntax--storage {
+    &.syntax--arrow {
+      color: @red;
+    }
+  }
+
+  .syntax--support {
+    &.syntax--type {
+      color: @red;
+    }
+  }
+
+  .syntax--parameters {
+    .syntax--other {
+      color: @red;
+      font-style: italic;
     }
 
-    .syntax--storage {
-        &.syntax--arrow {
-            color: @red;
-        }
+    .syntax--delimiter {
+      color: @very-light-gray;
     }
-
-    .syntax--support {
-        &.syntax--type {
-            color: @red;
-        }
-    }
-
-    .syntax--parameters {
-        .syntax--other {
-            color: @red;
-            font-style: italic;
-        }
-
-        .syntax--delimiter {
-            color: @very-light-gray;
-        }
-    }
+  }
 }
