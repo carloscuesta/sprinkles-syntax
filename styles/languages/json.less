@@ -1,54 +1,22 @@
 .syntax--json {
-  .syntax--meta {
-    &.syntax--structure .syntax--string.syntax--quoted.syntax--double {
-      color: @red;
+  .syntax--punctuation.syntax--string {
+    color: inherit;
+  }
 
-      > * {
-        color: currentColor;
+  .syntax--begin, .syntax--end {
+    color: @cyan;
+  }
 
-        &.syntax--punctuation {
-          &.syntax--begin,
-          &.syntax--end {
-            color: @cyan;
-          }
-        }
-      }
-    }
+  .syntax--constant,
+  .syntax--numeric {
+    color: @orange;
+  }
 
-    .syntax--invalid.syntax--illegal {
-      color: @white;
-    }
+  .syntax--invalid.syntax--illegal, .syntax--separator.syntax--key-value {
+    color: @white;
+  }
 
-    .syntax--constant,
-    .syntax--numeric {
-      color: @orange;
-    }
-
-    .syntax--punctuation.syntax--separator.syntax--key-value + .syntax--string.syntax--quoted {
-      color: @green;
-
-      * {
-        color: currentColor;
-
-        &.syntax--punctuation {
-          &.syntax--begin,
-          &.syntax--end {
-            color: @cyan;
-          }
-        }
-      }
-    }
-
-    &.syntax--structure.syntax--dictionary .syntax--string.syntax--quoted {
-      color: @red;
-
-      .syntax--punctuation.syntax--string {
-        color: currentColor;
-      }
-    }
-
-    &.syntax--meta .syntax--structure .syntax--array .syntax--string {
-      color: @green;
-    }
+  .syntax--string.syntax--quoted.syntax--double.syntax--dictionary {
+    color: @red;
   }
 }
