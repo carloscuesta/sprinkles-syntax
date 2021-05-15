@@ -1,0 +1,26 @@
+.syntax--graphql {
+  .syntax--variable {
+    color: @green;
+
+    &.syntax--arguments {
+      font-style: italic;
+      color: @red;
+
+      &.syntax--variable {
+        color: @red;
+      }
+    }
+  }
+
+  .syntax--keyword.syntax--type.syntax--graphql {
+    color: @orange;
+  }
+
+  .syntax--support.syntax--type.syntax--graphql {
+    color: @red;
+  }
+
+  .syntax--type.syntax--builtin {
+    filter: unset!important;
+  }
+}
