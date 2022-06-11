@@ -47,7 +47,7 @@ $ apm install sprinkles-syntax
 
 ## About
 
-This color scheme is also available as a shell theme in [materialshell](https://github.com/carloscuesta/materialshell).
+This color scheme is also available as a shell theme in [materialshell](https://github.com/carloscuesta/materialshell). Looking for the [VSCode theme install it from here](https://github.com/carloscuesta/sprinkles-vscode) 👈
 
 ### [Languages Supported](https://github.com/carloscuesta/sprinkles-syntax/blob/master/screenshots.md)
 
